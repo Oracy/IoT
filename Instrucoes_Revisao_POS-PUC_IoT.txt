@@ -1,0 +1,40 @@
+
+---------------------------------------------
+Revisão de Atividade de POS - Disciplina de IoT  
+Instruções para execução do ambiente
+---------------------------------------------
+- Passo 1: Download e instalação da ferramenta VMware Player ou Workstation
+	 Segue link para Download se necessário.
+	 https://encurtador.com.br/egE57
+- Passo 2: Download da VM-Aula 
+- Passo 3: Descompactação com senha POSPUCIOT e Importação da VM-Aula na ferramenta VMWare Player
+- Passo 4: Iniciar a VM-Aula
+- Se necessário seguem as credenciais de acesso: 
+	user: user
+	pass: user
+	
+Passo 5: Atividade (Alguns exemplos estao disponibilizados na Pasta IoT)
+1 - Na area de trabalho temos o link para Eclipse com o nome Link to eclipse.
+2 - Servidor CoAP que contém as funcoes do dispositivo inteligente. Um Servidor de exemplo esta disponivel em ServerApp IoT/src/main/java/org/eclipse/californium/examples/ServerApp.java
+3 - O Client CoAP que consome as funcoes do servidor e que é baseado o plugin do navegador Fiferox chamado Cupper.
+
+	- Sempre é necessário executar o servidor. Supondo que o servidor esteja programado para executar de modo localhost na porta 5683.
+	- Temos o acesso via navegador Firefox o acesso. Ex: coap://172.0.0.1:5683
+	- Ao acessar o dispositivo pelo navegador, podemos utilizar o método Discover.
+	- Os recursos/funcoes do dispositivo podem utilizar métodos como GET, PUT, POST, DELETE, OBSERVE.
+	- Os recursos estao disponibilizados no ServerApp e podem ser utilizados de exemplos /IoT/src/main/java/org/eclipse/californium/examples/resources.
+
+Erros Comuns:
+- O servidor CoAP esta em execuçao e tenta-se executá-lo novamente sem encerrar a instancia anterior.
+
+
+
+Dúvidas e entrada do trabalho.
+
+wadrianow@gmail.com
+
+
+	
+
+	
+	
